@@ -23,3 +23,8 @@
 [[constraint]]
   name = "github.com/labstack/echo"
   version = "3.3.10"
+
+[metadata.heroku]
+  root-package = "github.com/alaraiabdiallah/golang-heroku-starter"
+  go-version = "1.8.3"
+  install = [ "./..." ]
